@@ -133,9 +133,14 @@ const insertCalendar = async function () {
         }
     }
 
-    const res = await gapi.client.calendar.calendars.insert({}, {
+    const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+
+    const calendar = {
         'summary': summary,
-    })
+        'timeZone': timezone,
+    }
+
+    const res = await gapi.client.calendar.calendars.insert({}, calendar)
 
     console.log('Calendar created:', res.result)
 }
