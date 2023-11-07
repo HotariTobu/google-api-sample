@@ -8,7 +8,7 @@
     "@types/gapi.client.calendar": "^3.0.12",
     "@types/gapi.client.gmail": "^1.0.5",
     "@types/gapi.client.people": "^1.0.5",
-    "@types/google.accounts": "^0.0.7",
+    "@types/google.accounts": "^0.0.14",
     "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.7.3",
     "sass": "^1.58.3",
