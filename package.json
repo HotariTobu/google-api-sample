@@ -4,7 +4,7 @@
     "watch": "webpack --watch --mode=development"
   },
   "devDependencies": {
-    "@types/gapi": "^0.0.44",
+    "@types/gapi": "^0.0.47",
     "@types/gapi.client.calendar": "^3.0.12",
     "@types/gapi.client.gmail": "^1.0.5",
     "@types/gapi.client.people": "^1.0.5",
